@@ -28,7 +28,6 @@ Figma File - https://www.figma.com/design/NXkcJAvWDPxTOPnANbG2Hm/Tiffinbox--Copy
     * cd tiffinbox-app
 
 2. Install Dependencies:
-    ### React Router for navigation
     * npm install bootstrap
 
 3. Steps to run locally (npm install, npm start).
