@@ -1,0 +1,153 @@
+.specialities-container{
+    background-color: #090909;
+    min-height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.specialities-para{
+    color:#FCB017;
+    font-size:12px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.specialities-heading{
+    color:#9A9A9A;
+    font-size:18px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.specialities-top-container{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    .specialities-top-container{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.specialities-left-content{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 20px;
+}
+@media screen and (min-width:768px){
+    .specialities-left-content{
+        width:44%;
+    }
+}
+.specialities-left-content-container{
+    display: flex;
+    flex-direction: column;
+}
+.specialities-content-sub-heading{
+    color: #9A9A9A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.specialities-content-para{
+    color: #969696;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.specialities-left-content-2-container{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.specialities-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dj6b0oaa1/image/upload/v1760518429/Group_31_c3xhgs.png'); 
+    background-size: cover;
+    width:340px;
+    height: 340px;
+}
+@media screen and (min-width:768px){
+    .specialities-image-container{
+        width:260px;
+        height: 260px;
+    }
+}
+.our-specialities-image{
+    width:120px;
+    height: 32px;
+}
+.specialities-right-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+}
+@media screen and (min-width:768px){
+    .specialities-right-content{
+        width:44%;
+    }
+}
+.specialities-right-content-container{
+    display: flex;
+    flex-direction: column;
+}
+.specialities-right-content-2-container{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.specialities-middle-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specialities-middle-image{
+    width:120px;
+    height: 120px;
+}
+.specialities-middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.specialities-left-middle-image-container{
+    background-image: url('https://res.cloudinary.com/dj6b0oaa1/image/upload/v1760518315/447811980_18437712034009784_105850652782027639_nd_1_khzntd.png'); 
+    background-size: cover;
+    width:200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.specialities-left-middle-text{
+    color:#D3D3D3;
+    font-size: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.specialities-right-content-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    width:40%;
+}

@@ -1,0 +1,50 @@
+.join-community-container{
+    background-color: #090909;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.join-community-para{
+    color:#FCB017;
+    font-size:12px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.join-community-heading{
+    color:#9A9A9A;
+    font-size:18px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.join-community-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.community-image{
+    width:150px;
+    height: 150px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+@media screen and (min-width:768px){
+    .community-image{
+        width: 160px;
+        height: 160px;
+        margin-left: 16px;
+    }
+}

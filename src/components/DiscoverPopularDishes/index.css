@@ -1,0 +1,150 @@
+.discover-popular-dishes-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #090909;
+    min-height: 100vh;
+    margin-top: 0px;
+}
+.discover-para{
+    color:#FCB017;
+    font-size:12px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.discover-heading{
+    color:#9A9A9A;
+    font-size:18px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.chicken-container{
+  background-image: url('https://res.cloudinary.com/dj6b0oaa1/image/upload/v1760518516/Union_hczq4k.png'); 
+  background-size: cover;
+  width:140px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover-top-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.chicken-image{
+    width:90px;
+    height: 100px;
+}
+.explore-full-menu-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.explore-full-menu-button{
+    background-color: transparent;
+    border: 1px solid #9A9A9A;
+    color: #9A9A9A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.discover-middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.discover-middle-left-content-container{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+}
+.discover-content-sub-heading{
+    color: #FCB017;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.discover-content-heading{
+    color: #9A9A9A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.discover-content-para{
+    color: #CACACA;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 10px;
+}
+.order-online-button{
+    background-color: transparent;
+    border: 1px solid #9A9A9A;
+    color: #9A9A9A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.discover-middle-right-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.discover-middle-image-1{
+    width:80px;
+    height: 80px;
+    align-self: flex-end;
+}
+.discover-middle-image-2{
+    width:150px;
+    height: 150px;
+}
+.discover-bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.discover-bottom-left-image{
+    width:180px;
+    height: 300px;
+}
+.discover-bottom-right-content-container{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    padding-left:15px;
+}
