@@ -2,7 +2,7 @@ import './index.css';
 
 const Header=()=>{
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark sticky-top custom-navbar">
+    <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container-fluid">
         <a className="navbar-brand" href="#logo">
           Tiffinbox

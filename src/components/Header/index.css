@@ -10,7 +10,7 @@
 }
 
 .custom-navbar .navbar-brand:hover {
-  color: #ff6b35 !important;
+  color:#FCB017 !important;
 }
 
 .custom-navbar .navbar-nav .nav-link {
@@ -23,7 +23,7 @@
 }
 
 .custom-navbar .navbar-nav .nav-link:hover {
-  color: #ff6b35 !important;
+  color:#FCB017 !important;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
