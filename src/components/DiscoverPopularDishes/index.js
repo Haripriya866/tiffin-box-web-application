@@ -1,8 +1,6 @@
-// import React from 'react';
-
 import './index.css'
 
-function DiscoverPopularDishes() {
+const DiscoverPopularDishes=()=>{
   return (
     <>
     <section className='discover-popular-dishes-container' id='discoverPopularDishes'>

@@ -1,8 +1,6 @@
-// import React from 'react';
-
 import './index.css'
 
-function JoinCommunity() {
+const JoinCommunity=()=>{
   return (
     <section id="joinCommunity" className='join-community-container' >
         <p className='join-community-para'>Instagram</p>

@@ -1,8 +1,6 @@
-// import React from 'react';
-
 import './index.css'
 
-function Specialities() {
+const Specialities=()=>{
   return (
     <>
     <section id='specialities' className='specialities-container'>

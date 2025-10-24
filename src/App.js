@@ -1,5 +1,3 @@
-// import React from 'react';
-
 import Header from './components/Header';
 import Cuisine from './components/Cuisine';
 import DiscoverPopularDishes from './components/DiscoverPopularDishes';
@@ -8,11 +6,13 @@ import CustomerTestimonials from './components/CustomerTestimonials';
 import FindUs from './components/FindUs';
 import JoinCommunity from './components/JoinCommunity';
 import Footer from './components/Footer';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+const App=()=>{
+  return(
+    <>
+      <div className="app">
       <Header />
       <Cuisine />
       <DiscoverPopularDishes />
@@ -22,7 +22,8 @@ function App() {
       <JoinCommunity />
       <Footer />
     </div>
-  );
+    </>
+  )
 }
 
 export default App;

@@ -28,13 +28,13 @@
     margin-bottom: 10px;
 }
 .chicken-container{
-  background-image: url('https://res.cloudinary.com/dj6b0oaa1/image/upload/v1760518516/Union_hczq4k.png'); 
-  background-size: cover;
-  width:140px;
-  height: 168px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-image: url('https://res.cloudinary.com/dj6b0oaa1/image/upload/v1760518516/Union_hczq4k.png'); 
+    background-size: cover;
+    width:140px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .discover-top-image-container{
     display: flex;
@@ -58,15 +58,15 @@
     border: 1px solid #9A9A9A;
     color: #9A9A9A;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  width: 120px;
-  height: 40px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  text-decoration: none;
-  margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .discover-middle-container{
@@ -84,8 +84,8 @@
 .discover-content-sub-heading{
     color: #FCB017;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
+    font-size: 12px;
+    font-weight: 400;
 }
 .discover-content-heading{
     color: #9A9A9A;
@@ -100,22 +100,22 @@
 .discover-content-para{
     color: #CACACA;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 10px;
+    font-size: 10px;
 }
 .order-online-button{
     background-color: transparent;
     border: 1px solid #9A9A9A;
     color: #9A9A9A;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  width: 120px;
-  height: 40px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  text-decoration: none;
-  margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 .discover-middle-right-image-container{
     display: flex;

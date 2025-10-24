@@ -43,15 +43,15 @@
     border: 1px solid #9A9A9A;
     color: #9A9A9A;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  width: 100px;
-  height: 40px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  text-decoration: none;
-  margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 .cuisine-top-right-container{
     display: flex;
@@ -120,15 +120,15 @@
 .cuisine-bottom-right-content-heading{
     color:#000000;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 10px;
-  font-weight: 500;
+    font-size: 10px;
+    font-weight: 500;
 
 }
 .cuisine-bottom-right-content-para{
     color:#000000;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+    font-size: 14px;
+    font-weight: 300;
 }
 @media screen and (min-width:768px){
     .cuisine-bottom-right-content-para{
@@ -137,20 +137,19 @@
 }
 
 .know-more-button{
-  background-color: transparent;
+    background-color: transparent;
     border: 1px solid #000000;
     color: #000000;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  width: 100px;
-  height: 40px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  text-decoration: none;
-  margin-bottom: 10px;
-  
+    font-size: 12px;
+    font-weight: 400;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px; 
 }
 @media screen and (min-width:768px){
     .know-more-button{

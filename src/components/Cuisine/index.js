@@ -1,7 +1,6 @@
-// import React from 'react';
 import './index.css'
 
-function Cuisine() {
+const Cuisine=()=>{
   return (
    <>
     <section className='cuisine-container' id='cuisine'>

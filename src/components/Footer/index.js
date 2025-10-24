@@ -1,8 +1,6 @@
-// import React from 'react';
-
 import './index.css'
 
-function Footer() {
+const Footer=()=>{
   return (
     <footer id="footer" className='footer-container' >
         <div className='footer-tiffin-box-image-container'>

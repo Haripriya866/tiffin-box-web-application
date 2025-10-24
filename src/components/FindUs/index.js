@@ -1,8 +1,6 @@
-// import React from 'react';
-
 import './index.css'
 
-function FindUs() {
+const FindUs=()=>{
   return (
     <section id="findUs" className='find-us-container'>
         <div className='find-us'>

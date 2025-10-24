@@ -1,8 +1,6 @@
-// import React from 'react';
-
 import './index.css'
 
-function CustomerTestimonials() {
+const CustomerTestimonials=()=>{
   return (
     <section id="whatOurCustomersSays" className='customer-testimonials-container'>
         <p className='customer-testimonials-para'>testimonial</p>

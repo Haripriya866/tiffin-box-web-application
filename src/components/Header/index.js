@@ -1,8 +1,7 @@
-// import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-function Header() {
+const Header=()=>{
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top custom-navbar">
       <div className="container-fluid">
