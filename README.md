@@ -11,7 +11,7 @@ Link: https://tiffin-box-web-application.vercel.app
 
 ## Tech Stack
 
-- React.js (Class Components)
+- React.js
 - CSS Flexbox and Media Queries for responsive design
 
 ## Functionality
