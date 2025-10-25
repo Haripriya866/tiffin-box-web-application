@@ -36,7 +36,6 @@ const CustomerTestimonials=()=>{
                 </div>
             </div>
 
-
             <div className='customer-testimonials'>
                 <div className='testimonials-content-container'>
                     <img className='testimonials-content-image' src='/images/customer-testimonials/image-1.png' alt='image-1' />

@@ -1,7 +1,7 @@
 .specialities-container{
     background-color: #090909;
-    min-height: 100vh;
-    margin-top: 0px;
+    min-height: 1000px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -30,6 +30,7 @@
 .specialities-top-container{
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
 }
 @media screen and (min-width:768px){
     .specialities-top-container{
@@ -134,6 +135,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 0px;
 }
 .specialities-left-middle-image-container{
     background-image: url('https://res.cloudinary.com/dj6b0oaa1/image/upload/v1760518315/447811980_18437712034009784_105850652782027639_nd_1_khzntd.png'); 

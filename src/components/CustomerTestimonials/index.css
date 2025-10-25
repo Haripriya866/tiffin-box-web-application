@@ -3,8 +3,10 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    min-height: 300px;
 }
+
 .customer-testimonials-para{
     color:#FCB017;
     font-size:12px;
