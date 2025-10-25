@@ -4,6 +4,7 @@
     background-color: #090909;
     min-height: 100vh;
     margin-top: 0px;
+    margin-bottom: 20px;
 }
 .discover-para{
     color:#FCB017;
@@ -36,16 +37,29 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width:768px){
+    .chicken-container{
+        width:240px;
+        height: 240px;
+    }
+}
 .discover-top-image-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .chicken-image{
     width:90px;
     height: 100px;
+}
+@media screen and (min-width:768px){
+    .chicken-image{
+        width:200px;
+        height: 200px;
+    }
 }
 .explore-full-menu-button-container{
     display: flex;
@@ -71,10 +85,11 @@
 
 .discover-middle-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 40px;
     margin-left: 0px;
+    margin-bottom: 20px;
 }
 .discover-middle-left-content-container{
     display: flex;
@@ -132,15 +147,38 @@
     width:150px;
     height: 150px;
 }
+@media screen and (min-width:768px){
+    .discover-middle-image-2{
+        width:180px;
+        height: 180px;
+    }
+}
+@media screen and (min-width:853px){
+    .discover-middle-image-2{
+        width:220px;
+        height: 220px;
+    }
+}
 .discover-bottom-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 30px;
 }
 .discover-bottom-left-image{
-    width:180px;
+    width:200px;
     height: 300px;
+}
+@media screen and (min-width:768px){
+    .discover-bottom-left-image{
+        width:320px;
+    }
+}
+@media screen and (min-width:768px){
+    .discover-bottom-left-image{
+        width:480px;
+        height: 480px;
+    }
 }
 .discover-bottom-right-content-container{
     display: flex;
