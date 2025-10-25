@@ -45,6 +45,17 @@
     outline: none;
     text-decoration: none;
     margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.order-now-button:hover {
+  background-color: #FCB017;
+  border-color: #FCB017;
+  color: #ffffff;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(252, 176, 23, 0.3); 
+}
+.order-now-button:active {
+  transform: scale(0.98); 
 }
 @media screen and (min-width:540px){
     .cuisine-tiffin-box{
@@ -238,6 +249,18 @@
     outline: none;
     text-decoration: none;
     margin-bottom: 10px; 
+    transition: all 0.3s ease-in-out;
+}
+.know-more-button:hover {
+  background-color:#090909;
+  border-color: #FCB017;
+  color: #FCB017;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(252, 176, 23, 0.3); 
+}
+
+.know-more-button:active {
+  transform: scale(0.98); 
 }
 @media screen and (min-width:768px){
     .know-more-button{

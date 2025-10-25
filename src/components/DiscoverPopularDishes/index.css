@@ -80,8 +80,18 @@
     outline: none;
     text-decoration: none;
     margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
 }
-
+.explore-full-menu-button:hover {
+  background-color: #FCB017;
+  border-color: #FCB017;
+  color: #ffffff;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(252, 176, 23, 0.3); 
+}
+.explore-full-menu-button:active {
+  transform: scale(0.98); 
+}
 .discover-middle-container{
     display: flex;
     justify-content: space-around;
@@ -130,6 +140,17 @@
     outline: none;
     text-decoration: none;
     margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.order-online-button:hover {
+  background-color: #FCB017;
+  border-color: #FCB017;
+  color: #ffffff;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(252, 176, 23, 0.3); 
+}
+.order-online-button:active {
+  transform: scale(0.98); 
 }
 .discover-middle-right-image-container{
     display: flex;
