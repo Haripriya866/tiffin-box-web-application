@@ -1,7 +1,7 @@
 .specialities-container{
     background-color: #090909;
     min-height: 100vh;
-    margin-top: 40px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -85,8 +85,8 @@
 }
 @media screen and (min-width:768px){
     .specialities-image-container{
-        width:260px;
-        height: 260px;
+        width:280px;
+        height: 280px;
     }
 }
 .our-specialities-image{
@@ -123,6 +123,12 @@
     width:120px;
     height: 120px;
 }
+@media screen and (min-width:768px){
+    .specialities-middle-image{
+        width:170px;
+        height: 170px;
+    }
+}
 .specialities-middle-container{
     display: flex;
     justify-content: center;
@@ -138,6 +144,12 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+}
+@media screen and (min-width:768px){
+    .specialities-left-middle-image-container{
+        width:320px;
+        height: 320px;
+    }
 }
 .specialities-left-middle-text{
     color:#D3D3D3;
